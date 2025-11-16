@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc -b && node dist/index.js",
     "produce": "tsc -b && node dist/producer.js",
-    "consume": "tsc -b && node dist/consumer.js"
+    "consume": "tsc -b && node dist/consumer.js",
+    "payment-produce": "tsc -b && node dist/payment-producer.js",
+    "payment-consume": "tsc -b && node dist/payment-consumer.js"
   },
   "keywords": [],
   "author": "",
